@@ -1,0 +1,38 @@
+/*----------------------------------------*\
+  BOX
+\*----------------------------------------*/
+
+.box--default {
+  color: $text-color;
+
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  border-radius: $border-radius-default;
+}
+
+.box--primary {
+  background-image: radial-gradient(circle at 0 0, #a4c339, transparent 40%),
+                    radial-gradient(circle at 100% 100%, #a4c339, transparent 40%),
+                    radial-gradient(circle at 50% 50%, $brand-color, $brand-color 100%);
+  background-position: right center;
+  box-shadow: 0 0 10px rgba(0,0,0,.25) inset;
+}
+
+.box--secondary {
+  color: white;
+
+  background-color: $alt-color-darker;
+  box-shadow: 0 0 10px rgba(0,0,0,.25) inset;
+
+  .text-muted {
+    color: $alt-color-light;
+  }
+
+  a {
+    border-bottom-color: $alt-color;
+
+    &:hover {
+      border-bottom-color: $alt-color-lighter;
+    }
+  }
+}

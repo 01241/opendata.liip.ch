@@ -1,0 +1,65 @@
+/*----------------------------------------*\
+  TYPOGRAPHY
+\*----------------------------------------*/
+
+/**
+ * Headings
+ */
+
+h1 {
+  font-size: rem(26px);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: rem(20px);
+  font-weight: 300;
+}
+
+h3 {
+  font-size: rem(20px);
+  font-weight: 300;
+}
+
+@media (min-width: $screen-md-min) {
+  h1 {
+    font-size: rem(42px);
+  }
+
+  h2 {
+    font-size: rem(32px);
+  }
+
+  h3 {
+    font-size: rem(26px);
+  }
+}
+
+
+/**
+ * Links
+ */
+
+a {
+  color: $alt-color-dark;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+
+  &:hover {
+    border-bottom-color: $alt-color;
+  }
+}
+
+
+/**
+ * Variants
+ */
+
+.text-lead {
+  font-size: rem(20px);
+  font-weight: 300;
+
+  @media (min-width: $screen-md-min) {
+    font-size: rem(26px);
+  }
+}
