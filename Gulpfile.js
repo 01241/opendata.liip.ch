@@ -79,12 +79,4 @@ gulp.task('images', function () {
     .pipe(gulp.dest(config.dest.images));
 });
 
-/**
- * Deploy to Github Pages
- */
-gulp.task('deploy', function() {
-  return gulp.src(['fonts','images','stylesheets','index.html'])
-   .pipe($.ghPages());
-});
-
 gulp.task('default', ['watch']);
