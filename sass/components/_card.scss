@@ -1,0 +1,23 @@
+/*----------------------------------------*\
+  CARD
+\*----------------------------------------*/
+
+
+@media (min-width: $screen-md-min) {
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+    .card__header {
+      display: flex;
+      align-items: flex-end;
+      min-height: 85px;
+    }
+
+    .card__body {
+      flex: 1;
+    }
+
+}
