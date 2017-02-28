@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Open data at Liip landing page",
   "main": "index.html",
+  "scripts": {
+    "start": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git@gitlab.liip.ch:liip/opendata.git"
